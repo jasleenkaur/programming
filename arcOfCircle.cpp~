@@ -9,16 +9,15 @@ char circle[150][150];
 int main(void)
 {  
     
-    cout<<"\n\n\t\t\t###### Draw Arc of Circle #######\n";
-    cout << "\n\t\tEnter graph Height: ";
+    cout << "Enter graph Height: ";
     cin >> graphHeight;
-    cout << "\t\tEnter graph Width: ";
+    cout << "Enter graph Width: ";
     cin >> graphWidth;
-    cout << "\t\tRadius of circle: ";
+    cout << "Radius: ";
     cin >> radius;
-    cout << "\t\tEnter starting Angle of arc: ";
+    cout << "startAngle: ";
     cin >> startAngle;
-    cout << "\t\tEnter End Angle of arc: ";
+    cout << "endAngle: ";
     cin >> endAngle;
     
     
